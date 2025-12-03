@@ -1,0 +1,25 @@
+# XTTS-v2 Dependencies (for Hindi/English)
+TTS>=0.22.0
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# IndicTTS Dependencies (for Gujarati/Marathi)
+# Using gTTS as fallback/testing solution
+gtts>=2.5.0
+pydub>=0.25.0
+
+# Facebook MMS-TTS Dependencies (for Gujarati/Marathi)
+transformers>=4.30.0
+torchaudio>=2.0.0
+
+# ONNX Runtime for optimized inference
+onnxruntime>=1.16.0
+onnxruntime-gpu>=1.16.0; platform_system != "Darwin"
+
+# spaCy for advanced text processing (optional)
+spacy>=3.7.0
+
+# Common dependencies
+pathlib2>=2.3.7; python_version < '3.4'
+
