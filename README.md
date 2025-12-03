@@ -220,7 +220,7 @@ TTS_DEVICE=cuda  # or mps, or cpu
 
 *RTF = Real-Time Factor (lower is faster)
 
-## 🛣️ Roadmap
+## Roadmap
 
 - [x] Real-time WebSocket streaming
 - [x] Multi-model support (MMS-TTS, IndicTTS)
@@ -233,7 +233,7 @@ TTS_DEVICE=cuda  # or mps, or cpu
 - [ ] Batch processing API
 - [ ] Kubernetes deployment configs
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -250,40 +250,15 @@ Contributions are welcome! Please follow these steps:
 - Write tests for new features
 - Update documentation as needed
 
-## 📚 Documentation
+## Documentation
 
 - [Quick Start Guide](QUICK_START.md)
 - [Testing Guide](TESTING_GUIDE.md)
 - [Troubleshooting](TROUBLESHOOTING.md)
 - [API Documentation](http://localhost:8050/docs) (when server is running)
 
-## 🏷️ Repository Name Suggestions
 
-When publishing to GitHub, consider these names:
-- `indic-tts-streaming` ⭐ (Recommended)
-- `realtime-indic-tts`
-- `gujarati-marathi-tts`
-- `streaming-indic-voice`
-- `low-latency-indic-tts`
-
-## 🙏 Acknowledgments
-
-- [Facebook MMS-TTS](https://github.com/facebookresearch/fairseq/tree/main/examples/mms) - Massively Multilingual Speech models
-- [IndicTTS](https://github.com/AI4Bharat/Indic-TTS) - Indic language TTS models
-- [Piper TTS](https://github.com/rhasspy/piper) - Fast, local neural text to speech
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📞 Support
-
-For issues and questions:
-- Open an [issue](https://github.com/yourusername/indic-tts-streaming/issues)
-- Check [Troubleshooting Guide](TROUBLESHOOTING.md)
-- Review [API Documentation](http://localhost:8050/docs)
-
----
-
-**Made with ❤️ for Indic language speakers**
-
